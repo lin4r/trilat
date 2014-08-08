@@ -20,6 +20,14 @@ function [x,flg,its] = trilat(r,B,x0)
 %
 %[X,FLG,ITS]=..., also returns the number of GN iterations.
 %
+%
+%
+%DEPENDENCIES
+%
+%  trilatlin.m
+%  trilatr.m
+%  gn.m
+%
 %Linus Narva
 
 	if nargin <= 2
